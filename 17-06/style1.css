@@ -1,0 +1,22 @@
+#pai{
+    height: 550px;
+    background-color: rgba(0, 140, 255, 0.541);
+    padding: 25px ; /* margem interna*/
+    display: flex;
+    flex-direction: row; /*ele controla o eixo principal*/
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+    flex-wrap: wrap;
+}
+#filho{
+    background-color: rgba(105, 120, 255, 0.582);
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.fonte{
+    color: rgb(0, 0, 0);
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+}

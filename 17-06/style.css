@@ -1,0 +1,34 @@
+#Container_pai{
+    height: 500px ; /*altura*/
+    background-color: black;
+    padding: 25px ; /* margem interna*/
+    display: flex;
+    flex-direction: row; /*ele controla o eixo principal*/
+   justify-content: center;
+   gap: 20px;
+   align-items: center;
+   flex-wrap: wrap;
+  
+
+
+}
+
+
+#container_1{
+    background-color: rgba(237, 241, 8, 0.87);
+    padding: 15px;
+}
+#container_2{
+    background-color: rgb(5, 65, 230);
+    padding: 15px;  
+}
+#container_3{
+    background-color: rgb(235, 15, 26);
+    padding: 15px;
+}
+
+.fonte{
+color: aliceblue;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}

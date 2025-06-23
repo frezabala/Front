@@ -1,0 +1,41 @@
+*{
+
+    padding: 0;
+    margin: 0;
+}
+
+.containerPai{
+    background-color: black;
+    height: 500px;
+    /*padding: 15px;*/
+    display: flex;
+    flex-direction: row; /*ele controla o eixo principal*/
+    justify-content: center;/* alinea item no eixo principal*/
+    align-items: center;  /* açinea os item dos eixos segundario*/
+    flex-wrap: wrap; /* controla como os item se controla quando a tela diminue*/
+    gap: 20px;
+
+
+}
+.containerPai div{
+    padding: 15px;
+
+}
+
+ #filho1{
+    background-color: blue;
+   order: 1; /* mexe com as oreden dos elementos */
+
+}
+ #filho2{
+    background-color: brown;
+    order: 0;
+   
+   
+
+
+ }
+ #filho3{
+    background-color: rgb(223, 178, 65);
+    
+ }
